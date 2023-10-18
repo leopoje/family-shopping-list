@@ -1,0 +1,50 @@
+body {
+  font-family: "Sono", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+}
+
+.period-title {
+  flex: 1;
+  min-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.period-container > * {
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items:center ;
+}
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+ border: none;
+}
+
+@media (max-width: 1250px) {
+  .main-container {
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+  }
+}
